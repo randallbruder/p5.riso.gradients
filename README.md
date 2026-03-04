@@ -4,7 +4,7 @@ A p5.js library that extends [p5.riso](https://antiboredom.github.io/p5.riso/) t
 
 p5.riso.gradients simulates a gradient by exploiting the way p5.riso renders strokes: instead of drawing a filled shape, it draws hundreds of individual parallel lines side by side, each one slightly darker or lighter than the last.
 
-One limitation of this approach is that gradients can only run in one of four  directions (left to right, right to left, top to bottom, or bottom to top) since the lines are always axis-aligned.
+> **Note:** One limitation of this approach is that gradients can only run in one of four  directions (left to right, right to left, top to bottom, or bottom to top) since the lines are always axis-aligned.
 
 ## Setup
 
